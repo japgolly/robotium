@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.jayway.android.robotium</groupId>
 	<artifactId>robotium-solo</artifactId>
-	<version>3.6.1-SNAPSHOT</version>
+	<version>3.6-golly.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>Robotium :: Solo</name>
     <parent>
@@ -26,4 +26,11 @@
             <scope>provided</scope>
         </dependency>
 	</dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>thirdparty</id>
+			<url>http://golly-svr1:8081/nexus/content/repositories/thirdparty</url>
+		</repository>
+	</distributionManagement>
 </project>
